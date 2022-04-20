@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="./components.js" defer type="module"></script>
+  <script src="/assets/js/main.js" defer type="module"></script>
+  <title>Base Tailwind</title>
+</head>
+
+<body class="bg-zinc-400 h-screen">
+  <header>
+    <main-header name="history"></main-header>
+    <main-footer current="home"></main-footer>
+  </header>
+  <div class="flex h-screen justify-center items-center flex-col" id="yamete">
+    <div
+      class="bg-purple-700 text-white rounded-xl flex justify-center hover:border-b-2 hover:bg-lime-400 hover:ease-in-out duration-300">
+      <a href="#" class="rounded-sm p-6" id="btnQuizz">Commencer le quizz</a>
+    </div>
+  </div>
+</body>
+
+</html>
